@@ -1,0 +1,13 @@
+name: SetCommandBlock
+main: com.pseudoknight.SetCommandBlock.SetCommandBlockPlugin
+version: 1.0
+commands:
+    scb:
+        description: Set a command to a command block at a specific location.
+        usage: /scb <world> <x> <y> <z> <cmd>
+        permission: scb.set
+        permission-message: You don't have permission for that.
+permissions:
+    scb.set:
+        description: Allows the setting of a command block command.
+        default: op
